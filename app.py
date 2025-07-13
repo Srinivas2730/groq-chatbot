@@ -15,7 +15,7 @@ client = Groq(api_key=api_key)
 
 # Streamlit page settings
 st.set_page_config(page_title="Groq Chatbot", layout="centered")
-st.title("🤖 Chat with Groq LLaMA3")
+st.title("Chat with Groq LLaMA3")
 
 # Initialize chat history
 if "chat_history" not in st.session_state:
